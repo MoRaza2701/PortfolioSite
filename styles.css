@@ -1,0 +1,78 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #0b0c10;
+    color: #ffffff !important;
+}
+
+
+.navbar {
+    background-color: #1a1b1fe9 !important; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline; 
+}
+
+.nav-link:hover {
+    font-family: 'Rubik', sans-serif;
+    color: #007BFF !important;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link {
+    font-family: 'Rubik', sans-serif;
+    color: white !important;
+    
+}
+
+.no-gutters {
+    background-color: #0b0c10e1 !important;
+}
+
+.container {
+    background-color: #0b0c10 !important;
+}
+
+.cbo {
+    background-color: #0b0c10d6;
+}
+
+footer {
+    background-color: #1a1b1fe9 !important;
+}
+
+.f {
+    background-color: #1a1b1fe9 !important;
+}
+
+.flink {
+    text-decoration: none;
+}
+
+.flink:hover {
+    color: #007BFF !important;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pbody {
+    background-color: #0b0c10;
+}
+
+.pcard {
+    border: none !important;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.85);
+} 
+
+.form-control::placeholder { 
+    color: white;
+    opacity: 0.35; 
+}

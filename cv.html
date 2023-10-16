@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="icon" type="image/png" href="Assets/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,700">
+</head>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-sm navbar-light bg-light px-5 py-3">
-        <a class="navbar-brand" href="index.html">Muhammad Bhatti</a>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-5 py-3">
+        <span class="navbar-brand">Muhammad Bhatti</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +26,7 @@
                     <a class="nav-link" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="cv.html">CV</a>
+                    <a class="nav-link active" href="cv.html">CV</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -32,29 +36,34 @@
     </nav>
 
     <div class="container my-4">
-        <div class="card">
-            <div class="card-header">
-                <h5 class="card-title">My CV</h5>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-0">
+                    <div class="card-body pbody">
+                        <iframe src="Assets/CV.pdf" width="100%" height="600"></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="card-body">
-                <iframe src="Assets/CV.pdf" width="100%" height="600"></iframe>
-            </div>
-            <div class="card-footer text-center">
-                <a href="Assets/CV.pdf" class="btn btn-primary" download>Download CV</a>
+            <div class="col-md-4">
+                <div class="d-flex flex-column align-items-center">
+                    <h3 class="text-center mb-4" class="text-muted">Get To Know Me Better</h3>
+                    <p class="text-center mb-5 text-muted">Please feel free to review my resume, and if you find any aspects that align with your interests or requirements, I welcome your inquiries and would be delighted to discuss further.</p>
+                    <a href="Assets/CV.pdf" class="btn btn-lg btn-dark" download>Download Resume</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer class="bg-dark text-white py-2">
-        <div class="container">
+    <footer class="text-white py-2">
+        <div class="container f">
             <div class="row">
                 <div class="col">
-                    <h4>Connect with Me</h4>
+                    <h4 class="mt-1">Connect with Me</h4>
                 </div>
-                <div class="col text-right">
-                    <a class="text-white" href="https://www.linkedin.com/in/muhammad-raza-0828ba20b/">LinkedIn</a>
-                    <span class="mx-2">|</span>
-                    <a class="text-white" href="https://github.com/MoRocety">GitHub</a>
+                <div class="col text-right mt-2">
+                    <a class="text-white flink" href="https://www.linkedin.com/in/muhammad-raza-0828ba20b/">LinkedIn</a>
+                    <span class=" mx-2">|</span>
+                    <a class="text-white flink" href="https://github.com/MoRocety">GitHub</a>
                 </div>
             </div>
         </div>

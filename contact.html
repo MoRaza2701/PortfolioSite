@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="icon" type="image/png" href="Assets/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,500,700">
+</head>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-sm navbar-light bg-light px-5 py-3">
-        <a class="navbar-brand" href="index.html">Muhammad Bhatti</a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-5 py-3">
+        <span class="navbar-brand">Muhammad Bhatti</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,29 +29,56 @@
                     <a class="nav-link" href="cv.html">CV</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <footer class="bg-dark text-white py-2">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h4>Connect with Me</h4>
-                </div>
-                <div class="col text-right">
-                    <a class="text-white" href="https://www.linkedin.com/in/muhammad-raza-0828ba20b/">LinkedIn</a>
-                    <span class="mx-2">|</span>
-                    <a class="text-white" href="https://github.com/MoRocety">GitHub</a>
-                </div>
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Feel free to get in touch – Let's Connect!</h2>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control bg-dark text-light border-0" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control bg-dark text-light border-0" id="email" placeholder="Enter your email">
             </div>
         </div>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control bg-dark text-light border-0" id="subject" placeholder="Enter the subject of your message">
+        </div>
+        <div class="form-group">
+            <label for="projectDetails">Project Details:</label>
+            <textarea class="form-control bg-dark text-light border-0 finput" id="projectDetails" rows="5" placeholder="Enter details about your project"></textarea>
+        </div>
+        <div class="text-center mt-5">
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+    </form>
+</div>
+
+<footer class="text-white py-2">
+    <div class="container f">
+        <div class="row">
+            <div class="col">
+                <h4 class="mt-1">Connect with Me</h4>
+            </div>
+            <div class="col text-right mt-2">
+                <a class="text-white flink" href="https://www.linkedin.com/in/muhammad-raza-0828ba20b/">LinkedIn</a>
+                <span class=" mx-2">|</span>
+                <a class="text-white flink" href="https://github.com/MoRocety">GitHub</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
